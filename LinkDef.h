@@ -1,0 +1,10 @@
+#ifdef __CINT__
+#pragma link off all globals; 
+#pragma link off all classes;
+#pragma link off all functions;
+#pragma link C++ class MCParticle+;
+#pragma link C++ class TrackPropagatorParams+;
+#pragma link C++ class Track+;
+#pragma link C++ class Jet+;
+#pragma link C++ class Event+;
+#endif
